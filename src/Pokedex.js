@@ -1,29 +1,14 @@
-import React from "react";
-
-import {makeStyles} from "@material-ui/core";
-
-import Appbar from "./components/Appbar";
-import Leftbar from "./components/Leftbar";
-import Rightbar from "./components/Rightbar";
+import React from "react"
 import Routes from './components/Routes'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    height: "100vh",
-  },
-}));
+import "./pokedex.css"
 
 function Pokedex() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <Appbar />
-      <Leftbar />
+    <div className="pokedex">
       <Routes />
-      <Rightbar />
     </div>
-  );
+  )
 }
 
-export default Pokedex;
+export default Pokedex
