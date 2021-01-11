@@ -4,7 +4,7 @@ import Modal from '../components/Modal'
 
 // const pokemonsURL = "https://pokeapi.co/api/v2/pokemon"
 // const pokemonsImage = "https://pokeres.bastionbot.org/images/pokemon"
-const imageSorce = "https://pokeres.bastionbot.org/images/pokemon/1.png"
+const imageSource = "https://pokeres.bastionbot.org/images/pokemon/1.png"
 
 function Content(props) {
   return (
@@ -14,7 +14,7 @@ function Content(props) {
       handleClose - eh disparada com evento de click de fora do modal
       */}
       <Modal open={true} handleClose={() => null} >
-
+        <h1>Modal</h1>
       </Modal>
     </div>
   )
